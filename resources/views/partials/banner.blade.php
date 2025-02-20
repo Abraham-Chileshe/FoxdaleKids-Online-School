@@ -5,31 +5,56 @@
      <div class="close-sidebar-widget close-button">
          <span class="fa-solid fa-xmark fa-fw"></span>
      </div>
-     <div class="sidebar-inner">
-         <div class="upper-box">
-             <div class="image">
-                 <img src="assets/images/resource/about-1.jpg" alt="" />
-             </div>
-             <div class="content-box">
-                 <h3>About <span>kidscamp</span></h3>
-                 <div class="text">Aliquam ut porttitor leo a diam sollicitudin.Nam tempus volutpat ipsum, non
-                     viverra odio mollis mollis. Mauris vitaemalesuada nunc vel risus.</div>
-                 <ul class="about-sidebar_list">
-                     <li>Engaging Curriculum</li>
-                     <li>Expert Instructors</li>
-                     <li>Safe Environment</li>
-                     <li>Fun and Adventure</li>
-                 </ul>
-             </div>
-         </div>
-         <!-- Social Box -->
-         <div class="social-box">
-             <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-             <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-             <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-             <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-         </div>
-     </div>
+     	<!-- Register One -->
+	<section class="register-one">
+		<div class="auto-container">
+			<div class="inner-container">
+				<h3>Login</h3>
+				<div class="text">Your email address will not be published.</div>
+
+				<!-- Register Form -->
+				<div class="register-form">
+					<form method="post" action="https://demo.themeim.com/html/kidscamp/contact.html">
+						
+						<div class="form-group">
+							<label>Name*</label>
+							<input type="text" name="name" placeholder="" required="">
+						</div>
+
+						<div class="form-group">
+							<label>Password*</label>
+							<span class="icon fa-regular fa-eye fa-fw"></span>
+							<input type="password" name="password" placeholder="" required="">
+						</div>
+
+						<div class="form-group">
+							<div class="d-flex justify-content-between align-items-center flex-wrap">
+								<div class="check-box">
+									<input type="checkbox" name="remember-password" id="type-1"> 
+									<label for="type-1">Remember Me</label>
+								</div>
+								<a class="forgot-psw" href="#">Forget Password?</a>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<!-- Button Box -->
+							<button type="submit" class="submit-btn btn-style-one">
+								<span class="btn-wrap">
+									<span class="text-one">login now</span>
+									<span class="text-two">login now</span>
+								</span>
+							</button>
+						</div>
+						
+					</form>
+				</div>
+				<!-- End Default Form -->
+
+			</div>
+		</div>
+	</section>
+	<!-- End Register One -->
  </div>
  <!-- End About Sidebar -->
 

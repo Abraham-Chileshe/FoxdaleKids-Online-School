@@ -95,22 +95,15 @@
 
                         <!-- Button Box -->
                         <div class="main-header_button">
-                            <a href="about.html" class="theme-btn btn-style-one">
-                                <span class="btn-wrap">
+                            <span class="about-widget theme-btn btn-style-one">
+                                <span class=" btn-wrap">
                                     <span class="text-one">Login Now</span>
                                     <span class="text-two">Login Now</span>
                                 </span>
-                            </a>
+                            </span>
                         </div>
 
-                        <!-- About Widget -->
-                        <span class="about-widget">
-                            <span class="hamburger">
-                                <span class="top-bun"></span>
-                                <span class="meat"></span>
-                            </span>
-                        </span>
-
+                       
                         <!-- Mobile Navigation Toggler -->
                         <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
 
